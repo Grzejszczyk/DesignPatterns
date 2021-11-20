@@ -9,12 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "..\Factory
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "..\Strategy\Strategy.csproj", "{0DA6D7F9-84D9-47FF-B292-6E6669728CDC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational patterns", "Creational patterns", "{AD872311-1BC6-486F-B9EF-0A0BB0959FD0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural patterns", "Structural patterns", "{7AA6AAFF-5767-4B5A-9996-7D35BE0E9DDC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral patterns", "Behavioral patterns", "{42551881-C555-4A28-919E-BE67AD0BD37D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "..\Singleton\Singleton.csproj", "{FC80DBD7-42FF-4F80-ADB3-C8EAE3C56E54}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "..\AbstractFactoryProgram\AbstractFactory.csproj", "{609EACA9-1944-4E3C-BC6F-C575CD0666B3}"
@@ -25,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "..\Prototype\P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "..\Adapter\Adapter.csproj", "{AC9F36B3-CB49-4C80-AA27-2D3BEC9275F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "..\Mediator\Mediator.csproj", "{7E316499-2937-4232-A416-666C5B6E1291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "..\Mediator\Mediator.csproj", "{7E316499-2937-4232-A416-666C5B6E1291}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,16 +66,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{553489DE-4E36-4CB3-B992-6CBD2A799AF7} = {AD872311-1BC6-486F-B9EF-0A0BB0959FD0}
-		{0DA6D7F9-84D9-47FF-B292-6E6669728CDC} = {42551881-C555-4A28-919E-BE67AD0BD37D}
-		{FC80DBD7-42FF-4F80-ADB3-C8EAE3C56E54} = {AD872311-1BC6-486F-B9EF-0A0BB0959FD0}
-		{609EACA9-1944-4E3C-BC6F-C575CD0666B3} = {AD872311-1BC6-486F-B9EF-0A0BB0959FD0}
-		{0359D1D9-BBA9-402A-BEEA-382BC1146A19} = {AD872311-1BC6-486F-B9EF-0A0BB0959FD0}
-		{AE0DECE1-76DE-4CC4-A86E-3D1E62B69467} = {AD872311-1BC6-486F-B9EF-0A0BB0959FD0}
-		{AC9F36B3-CB49-4C80-AA27-2D3BEC9275F9} = {7AA6AAFF-5767-4B5A-9996-7D35BE0E9DDC}
-		{7E316499-2937-4232-A416-666C5B6E1291} = {42551881-C555-4A28-919E-BE67AD0BD37D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98F9E285-46E1-40EA-9546-7B7010D1F341}
