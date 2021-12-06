@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Mediator
 {
-    public class Mediator : IMediator
+    public class MediatorSimple : IMediatorSimple
     {
         private Component1 _component1;
         private Component2 _component2;
 
-        public Mediator(Component1 component1, Component2 component2)
+        public MediatorSimple(Component1 component1, Component2 component2)
         {
             _component1 = component1;
             _component1.SetMediator(this);

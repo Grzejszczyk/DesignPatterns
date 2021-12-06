@@ -8,12 +8,12 @@ namespace Mediator
 {
     public class BaseComponent
     {
-        protected IMediator _mediator;
-        public BaseComponent(IMediator mediator = null)
+        protected IMediatorSimple _mediator;
+        public BaseComponent(IMediatorSimple mediator = null)
         {
             _mediator = mediator;
         }
-        public void SetMediator(IMediator mediator)
+        public void SetMediator(IMediatorSimple mediator)
         {
             _mediator = mediator;
         }

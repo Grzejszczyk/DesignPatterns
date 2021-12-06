@@ -21,7 +21,7 @@ namespace DesignPatterns
             BuilderProgram.Start();
             PrototypeProgram.Start();
             AdapterProgram.Start();
-            MadiatorProgram.Start();
+            MadiatorSimpleProgram.Start();
         }
     }
 }

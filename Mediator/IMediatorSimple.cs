@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mediator
 {
-    public interface IMediator
+    public interface IMediatorSimple
     {
         void Notify(object sender, string ev);
     }
