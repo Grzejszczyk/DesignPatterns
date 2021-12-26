@@ -14,14 +14,15 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            FactoryMethodProgram.Start();
-            StrategyProgram.Start();
-            SinletonProgram.Start();
-            AbstractFactoryProgram.Start();
-            BuilderProgram.Start();
-            PrototypeProgram.Start();
-            AdapterProgram.Start();
-            MadiatorSimpleProgram.Start();
+            //FactoryMethodProgram.Start();
+            //StrategyProgram.Start();
+            //SinletonProgram.Start();
+            //AbstractFactoryProgram.Start();
+            //BuilderProgram.Start();
+            //PrototypeProgram.Start();
+            //AdapterProgram.Start();
+            //MadiatorSimpleProgram.Start();
+            MediatorProgram.Start();
         }
     }
 }

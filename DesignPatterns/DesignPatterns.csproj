@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,7 +10,8 @@
     <ProjectReference Include="..\Adapter\Adapter.csproj" />
     <ProjectReference Include="..\Builder\Builder.csproj" />
     <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj" />
-    <ProjectReference Include="..\Mediator\MediatorSimple.csproj" />
+    <ProjectReference Include="..\MediatorSimple\MediatorSimple.csproj" />
+    <ProjectReference Include="..\Mediator\Mediator.csproj" />
     <ProjectReference Include="..\Prototype\Prototype.csproj" />
     <ProjectReference Include="..\Singleton\Singleton.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />
